@@ -21,7 +21,7 @@ params:
   hideColorSchemeToggle: no
   info:
     - Research Scientist
-    - PhD Candidate (University of Oregon)
+    #- PhD Candidate (University of Oregon)
   keywords: blog,R-code, research, personal
   maxSeeAlsoItems: 5
   rtl: no
