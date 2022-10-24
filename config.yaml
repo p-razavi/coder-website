@@ -12,7 +12,7 @@ params:
   author: Pooya Razavi
   avatarURL: images/N90.jpg
   colorScheme: auto
-  commit: https://github.com/p-razavi/
+  commit: https://github.com/p-razavi/website-theme-coder/
   customCSS: []
   customJS: []
   customSCSS: []
@@ -21,7 +21,7 @@ params:
   hideColorSchemeToggle: no
   info:
     - Research Scientist
-    #- Magician
+    - PhD Candidate (University of Oregon)
   keywords: blog,R-code, research, personal
   maxSeeAlsoItems: 5
   rtl: no
