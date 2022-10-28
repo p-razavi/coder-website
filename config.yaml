@@ -22,7 +22,7 @@ params:
   info:
     - Research Scientist
     #- PhD Candidate (University of Oregon)
-  keywords: blog,R-code, research, personal
+  keywords: blog, R-code, research, personal
   maxSeeAlsoItems: 5
   rtl: no
   since: 2022
