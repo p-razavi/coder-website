@@ -45,24 +45,25 @@ Razavi, P., Zhang, J. W., Hekiert, D., Yoo, S. H., Howell, R. (2016). _Emotion_.
 
 ## **PRESENTATIONS**
 
+**[Upcoming]**
+
+Razavi, P., Powers, S. (2023, February). The Impact of Missingness on the Dimensionality Structure of Measures. To be presented as a poster at the 24th Annual Convention of Society for Personality and Social Psychology in Atlanta, GA.
+
+Doloszycki, E., Lashchuk, E., Castillo, A., Srivastava, S., & Razavi, P. (2023, February). The Dichotomy of Justified and Unjustified Anger: Antecedents and Social Consequences. To be presented as a poster at the 24th Annual Convention of Society for Personality and Social Psychology in Atlanta, GA.
+
 **[2022]**
 
-Razavi, P., Shaban-Azad, H., Srivastava, S. (2022, February). Gheirat: Emotional reactions to 
-relational boundary violations. Talk presented in “Innovations in research on emotion in non-WEIRD contexts” symposium at the 23rd Annual Convention of Society for Personality and Social Psychology in San Francisco, CA.
+Razavi, P., Shaban-Azad, H., Srivastava, S. (2022, February). Gheirat: Emotional reactions to relational boundary violations. Talk presented in “Innovations in research on emotion in non-WEIRD contexts” symposium at the 23rd Annual Convention of Society for Personality and Social Psychology in San Francisco, CA.
 
 **[2021]**
 
-Razavi, P., Shaban-Azad, H., & Srivastava, S. (2021, July). Iranian adults’ perceptions of 
-gheirat expressors. Blitz Talk presented at Association for Research in Personality (ARP) 7th Biennial Conference (virtual). 
+Razavi, P., Shaban-Azad, H., & Srivastava, S. (2021, July). Iranian adults’ perceptions of gheirat expressors. Blitz Talk presented at Association for Research in Personality (ARP) 7th Biennial Conference (virtual). 
 
-Razavi, P., Sugawara, D., Lin, P., Tee, E., Razavi, S., Lieber, S., Saucier, G., & Srivastava, S. 
-(2021, May). Perceptions of relational mobility influence emotional expressivity. Flash Talk presented at Association for Psychological Science (APS) 2021 Virtual Convention.
+Razavi, P., Sugawara, D., Lin, P., Tee, E., Razavi, S., Lieber, S., Saucier, G., & Srivastava, S. (2021, May). Perceptions of relational mobility influence emotional expressivity. Flash Talk presented at Association for Psychological Science (APS) 2021 Virtual Convention.
 
-Razavi, P., (2021, May). Fair peer review practices and increasing the diversity of 
-psychological science. Presented at the social and personality brown bag at the University of Oregon.
+Razavi, P., (2021, May). Fair peer review practices and increasing the diversity of psychological science. Presented at the social and personality brown bag at the University of Oregon.
 
-Razavi, P., Tee, E., Sugawara, D., Lin, P., Razavi, S., Lieber, S., Saucier, G., & Srivastava, S. 
-(2021, February). Relationship between emotional experience and expressivity; A cross-cultural investigation. Talk presented in “How culture influences gender dynamics, morality, and emotional processes” symposium at the 22nd Annual Convention of Society for Personality and Social Psychology (virtual).
+Razavi, P., Tee, E., Sugawara, D., Lin, P., Razavi, S., Lieber, S., Saucier, G., & Srivastava, S. (2021, February). Relationship between emotional experience and expressivity; A cross-cultural investigation. Talk presented in “How culture influences gender dynamics, morality, and emotional processes” symposium at the 22nd Annual Convention of Society for Personality and Social Psychology (virtual).
 
 **[2020]**
 
