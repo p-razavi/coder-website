@@ -47,13 +47,13 @@ Razavi, P., Zhang, J. W., Hekiert, D., Yoo, S. H., Howell, R. (2016). _Emotion_.
 
 **[Upcoming]**
 
-Razavi. P. (2023, April). *Emotions as Signals of Relational Violations: The Cases of Anger and Gheirat.* Invited Presentation to the Psychology Department at the Linfield University, OR.
+Razavi. P. (2023, April). *Emotions as signals of relational violations: The cases of anger and gheirat.* Invited Presentation to the Psychology Department at the Linfield University, OR.
 
 **[2023]**
 
-Razavi, P., & Powers, S. (2023, February). *The Impact of Missingness on the Dimensionality Structure of Measures.* Poster Presented at the 24th Annual Convention of Society for Personality and Social Psychology in Atlanta, GA.
+Razavi, P., & Powers, S. (2023, February). *The impact of missingness on the dimensionality structure of measures.* Poster Presented at the 24th Annual Convention of Society for Personality and Social Psychology in Atlanta, GA.
 
-Lashchuk, E., Srivastava, S., & Razavi, P. (2023, February). *Gender Differences and Similarities in the Experience of Anger.* Poster at the Emotion Pre-Conference of the 24th Annual Convention of Society for Personality and Social Psychology in Atlanta, GA.
+Lashchuk, E., Srivastava, S., & Razavi, P. (2023, February). *Gender differences and similarities in the experience of anger.* Poster at the Emotion Pre-Conference of the 24th Annual Convention of Society for Personality and Social Psychology in Atlanta, GA.
 
 Doloszycki, E., Lashchuk, E., Castillo, A., Srivastava, S., & Razavi, P. (2023, February). *The Dichotomy of Justified and Unjustified Anger: Antecedents and Social Consequences.* Poster at the 24th Annual Convention of Society for Personality and Social Psychology in Atlanta, GA.
 
