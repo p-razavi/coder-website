@@ -68,8 +68,8 @@ languages:
         - name: Projects
           url: projects/
           weight: 2
-        - name: Blog
-          url: projects/
+        - name: Posts
+          url: posts/
           weight: 3  
         #- name: Blog
         #  url: posts/
