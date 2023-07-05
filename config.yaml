@@ -21,7 +21,6 @@ params:
   hideColorSchemeToggle: no
   info:
     - Research Scientist
-    #- PhD Candidate (University of Oregon)
   keywords: blog, R-code, research, personal
   maxSeeAlsoItems: 5
   rtl: no
@@ -98,8 +97,8 @@ languages:
   #        url: contact/
   #        weight: 5
   #  params:
-  #    author: João Ninguém
-  #    description: Sítio pessoal de João Ninguém
+  #    author: Pooya Razavi
+  #    description: Sítio pessoal de Pooya Razavi
   #    info: Full Stack DevOps e Mágico
   #    keywords: blog,desenvolvedor,pessoal
-  #  title: João Ninguém
+  #  title: Pooya Razavi
