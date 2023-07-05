@@ -13,7 +13,7 @@ The independent samples t-test (or between-subjects t-test) is used to determine
 ## Example Scenario
 Let's consider a simple example from psychology. Suppose a researcher wants to investigate whether there is a significant difference in the mean anxiety levels between two groups of participants: Group A, which received a mindfulness intervention, and Group B, which did not receive any intervention. The researcher believes that mindfulness can reduce anxiety levels. Assuming that the two groups, on average, had the same level of anxiety prior to the intervention, by conducting an independent samples t-test, the researcher can compare the post-intervention anxiety levels and assess whether the intervention had a significant impact on anxiety.
 
-## 3. Conducting Independent Samples t-test in R
+## Conducting Independent Samples t-test in R
 
 ### Step 1: Simulating Data
 First, we need to simulate the data for our example scenario. Let's assume that each group consists of 90 participants, and anxiety levels are measured on a scale from 1 to 10. We will use the `rnorm()` function to generate normally distributed random data.
@@ -44,7 +44,7 @@ print(t_test_result)
 
 The output provides the t-statistic (_t_ = -6.59), degrees of freedom (_df_ = 177.9), p-value (_p_ < .001), and 95% confidence interval (-1.19, -0.64). These results indicate that the difference between the two groups is significant, and effect size is large (_d_ = 0.98).
 
-## 4. Conducting Independent Samples t-test in Python
+## Conducting Independent Samples t-test in Python
 
 ### Step 1: Simulating Data
 Similarly, we need to simulate data for our example scenario using Python. We can use the NumPy library to generate random data from normal distributions.
