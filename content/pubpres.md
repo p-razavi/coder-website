@@ -9,7 +9,12 @@ description: List of peer reviewed publications, presentations, and awards
 title: Publications, Presentations, and Awards
 ---
 
+
 ## **PUBLICATIONS**
+
+**Complexities and lessons in researching culture-specific experiences**
+
+Razavi, P., Iyer, A., Gorur, K., & Silan, M. (2023). _APS Observer_. [[Link](https://www.psychologicalscience.org/observer/gs-researching-culture-specific-experiences)].
 
 **Gheirat as a complex emotional reaction to relational boundary violations: A mixed-methods investigation.** 
 
@@ -45,11 +50,9 @@ Razavi, P., Zhang, J. W., Hekiert, D., Yoo, S. H., Howell, R. (2016). _Emotion_.
 
 ## **PRESENTATIONS**
 
-**[Upcoming]**
+**[2023]**
 
 Razavi. P. (2023, April). *Emotions as signals of relational violations: The cases of anger and gheirat.* Invited Presentation to the Psychology Department at the Linfield University, OR.
-
-**[2023]**
 
 Razavi, P., & Powers, S. (2023, February). *The impact of missingness on the dimensionality structure of measures.* Poster Presented at the 24th Annual Convention of Society for Personality and Social Psychology in Atlanta, GA.
 
