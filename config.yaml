@@ -69,7 +69,7 @@ languages:
           url: projects/
           weight: 2
         - name: R/Python Tutorials
-          url: rpythontutor/
+          url: Tutorials/
           weight: 3  
         #- name: Blog
         #  url: posts/
