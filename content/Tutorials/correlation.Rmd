@@ -3,7 +3,13 @@ title: "Conducting Correlation Analysis in R and Python"
 author: "Pooya Razavi"
 date: "2023-07-06"
 output: html_document
+theme: paper
+tags: ["R", "Python", "correlation"]
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
 
 ## Correlation Analysis
 Correlation analysis is a statistical technique used to measure the strength and direction of the relationship between two variables. It helps determine whether there is an association between the variables and the extent to which they vary together. 
