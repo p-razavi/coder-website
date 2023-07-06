@@ -1,0 +1,116 @@
+---
+title: "Conducting Correlation Analysis in R and Python"
+author: "Pooya Razavi"
+date: "2023-07-06"
+output: html_document
+---
+
+
+
+<div id="correlation-analysis" class="section level2">
+<h2>Correlation Analysis</h2>
+<p>Correlation analysis is a statistical technique used to measure the strength and direction of the relationship between two variables. It helps determine whether there is an association between the variables and the extent to which they vary together.</p>
+</div>
+<div id="example-scenario" class="section level2">
+<h2>Example Scenario</h2>
+<p>Let’s consider a practical example where a teacher wants to analyze the relationship between the number of hours studied and the corresponding test scores of 350 students in her class. By conducting a correlation analysis, we can assess the strength and direction of the relationship between these variables.</p>
+</div>
+<div id="conducting-correlation-analysis-in-r" class="section level2">
+<h2>Conducting Correlation Analysis in R</h2>
+<div id="step-1-simulating-data" class="section level3">
+<h3>Step 1: Simulating Data</h3>
+<p>To illustrate the correlation analysis, let’s simulate the data in R such that the correlation between the two variables is approximately 0.6. We will use the <code>mvtnorm()</code> package.</p>
+<pre class="r"><code>library(mvtnorm)
+
+set.seed(100)  # For reproducibility
+
+# Set up the data parameters, create a covariance matrix, and simulate data
+correlation &lt;- 0.6
+mean_values &lt;- c(25, 75)
+
+cov_matrix &lt;- matrix(c(5^2, correlation * 5 * 10, correlation * 5 * 10, 10^2), nrow = 2)
+
+simulated_data &lt;- rmvnorm(n = 350, mean = mean_values, sigma = cov_matrix)
+hours_studied &lt;- simulated_data[, 1]
+test_scores &lt;- simulated_data[, 2]</code></pre>
+</div>
+<div id="step-2-calculating-the-correlation" class="section level3">
+<h3>Step 2: Calculating the Correlation</h3>
+<p>Next, we can calculate the correlation coefficient using the <code>cor.test()</code> function in R. The output will provide the correlation coefficient, which ranges from -1 to 1. A positive value indicates a positive correlation, a negative value indicates a negative correlation, and values close to 0 indicate a weak or no correlation.</p>
+<pre class="r"><code># Calculating the correlation coefficient
+cor.test(hours_studied, test_scores)</code></pre>
+<pre><code>## 
+##  Pearson&#39;s product-moment correlation
+## 
+## data:  hours_studied and test_scores
+## t = 13.433, df = 348, p-value &lt; 2.2e-16
+## alternative hypothesis: true correlation is not equal to 0
+## 95 percent confidence interval:
+##  0.510826 0.649411
+## sample estimates:
+##       cor 
+## 0.5843633</code></pre>
+<p>In this case, we can see that these two variables have a relatively strong and positive correlation (<em>r</em> = 0.58), and this correlation is statistically significant (<em>p</em> &lt; .001).</p>
+</div>
+<div id="step-3-visualizing-the-correlation-using-ggplot2" class="section level3">
+<h3>Step 3: Visualizing the Correlation using ggplot2</h3>
+<p>To visualize the correlation, we can create a scatter plot using the <code>ggplot2</code> package in R.
+The scatter plot shows the relationship between the variables, and the trend line provides an indication of the direction and strength of the correlation.</p>
+<pre class="r"><code>library(ggplot2)
+
+# Create a scatter plot
+ggplot(data = data.frame(hours_studied, test_scores), aes(x = hours_studied, y = test_scores)) +
+  geom_point(color = &quot;purple&quot;) +
+  geom_smooth(method = &quot;lm&quot;, se = FALSE) +
+  labs(title = &quot;Correlation Analysis&quot;, x = &quot;Hours Studied&quot;, y = &quot;Test Scores&quot;) +
+  geom_text(x = 15, y = 85, label = paste(&quot;r =&quot;, round(correlation, 2))) +
+  theme_bw()</code></pre>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="/Tutorials/correlation_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+</div>
+</div>
+<div id="conducting-correlation-analysis-in-python" class="section level2">
+<h2>Conducting Correlation Analysis in Python</h2>
+<p>We can follow the same steps in Python. We first simulate the data using the <code>np.random.multivariate_normal()</code> function to generate two variables (<code>hours_studied</code> and <code>test_scores</code>) with the specified means and covariance matrix. Then, we calculate the correlation coefficient using the <code>pearsonr()</code> function from <code>scipy.stats</code>. Finally, we create a scatter plot using <code>sns.regplot()</code> from the <em>seaborn</em> library and add the correlation coefficient as text using <code>plt.text()</code>.</p>
+<div id="step-1-simulating-data-1" class="section level3">
+<h3>Step 1: Simulating Data</h3>
+<pre class="python"><code>import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy.stats import pearsonr
+
+np.random.seed(100)  # For reproducibility
+
+# Set up the data parameters, create a covariance matrix, and simulate data
+correlation = 0.6
+mean_values = [25, 75]
+cov_matrix = [[5 ** 2, correlation * 5 * 10], [correlation * 5 * 10, 10 ** 2]]
+
+simulated_data = np.random.multivariate_normal(mean=mean_values, cov=cov_matrix, size=350)
+data = pd.DataFrame(simulated_data, columns=[&#39;hours_studied&#39;, &#39;test_scores&#39;])</code></pre>
+</div>
+</div>
+<div id="step-2-calculating-the-correlation-coefficient" class="section level1">
+<h1>Step 2: Calculating the correlation coefficient</h1>
+<pre class="python"><code># Calculating the correlation coefficient, p-value, and degrees of freedom
+correlation, p_value = pearsonr(data[&#39;hours_studied&#39;], data[&#39;test_scores&#39;])
+df = len(data) - 2  # Degrees of freedom
+
+print(&quot;Correlation coefficient:&quot;, correlation)</code></pre>
+<pre><code>## Correlation coefficient: 0.6055989149124067</code></pre>
+<pre class="python"><code>print(&quot;P-value:&quot;, p_value)</code></pre>
+<pre><code>## P-value: 2.0922595757724395e-36</code></pre>
+<pre class="python"><code>print(&quot;Degrees of Freedom:&quot;, df)</code></pre>
+<pre><code>## Degrees of Freedom: 348</code></pre>
+</div>
+<div id="create-a-scatter-plot" class="section level1">
+<h1>Create a scatter plot</h1>
+<pre class="python"><code>sns.regplot(data=data, x=&#39;hours_studied&#39;, y=&#39;test_scores&#39;)
+plt.title(&quot;Correlation Analysis&quot;)
+plt.xlabel(&quot;Hours Studied&quot;)
+plt.ylabel(&quot;Test Scores&quot;)
+plt.text(10, 90, f&quot;Correlation: {correlation:.2f}&quot;)
+plt.show()</code></pre>
+<p><img src="/Tutorials/correlation_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+</div>
