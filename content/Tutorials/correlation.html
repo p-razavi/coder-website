@@ -3,6 +3,8 @@ title: "Conducting Correlation Analysis in R and Python"
 author: "Pooya Razavi"
 date: "2023-07-06"
 output: html_document
+theme: paper
+tags: ["R", "Python", "correlation"]
 ---
 
 
@@ -38,8 +40,8 @@ test_scores &lt;- simulated_data[, 2]</code></pre>
 <h3>Step 2: Calculating the Correlation</h3>
 <p>Next, we can calculate the correlation coefficient using the <code>cor.test()</code> function in R. The output will provide the correlation coefficient, which ranges from -1 to 1. A positive value indicates a positive correlation, a negative value indicates a negative correlation, and values close to 0 indicate a weak or no correlation.</p>
 <pre class="r"><code># Calculating the correlation coefficient
-cor.test(hours_studied, test_scores)</code></pre>
-<pre><code>## 
+cor.test(hours_studied, test_scores)
+## 
 ##  Pearson&#39;s product-moment correlation
 ## 
 ## data:  hours_studied and test_scores
@@ -64,8 +66,8 @@ ggplot(data = data.frame(hours_studied, test_scores), aes(x = hours_studied, y =
   geom_smooth(method = &quot;lm&quot;, se = FALSE) +
   labs(title = &quot;Correlation Analysis&quot;, x = &quot;Hours Studied&quot;, y = &quot;Test Scores&quot;) +
   geom_text(x = 15, y = 85, label = paste(&quot;r =&quot;, round(correlation, 2))) +
-  theme_bw()</code></pre>
-<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+  theme_bw()
+## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
 <p><img src="/Tutorials/correlation_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 </div>
 </div>
@@ -97,12 +99,12 @@ data = pd.DataFrame(simulated_data, columns=[&#39;hours_studied&#39;, &#39;test_
 correlation, p_value = pearsonr(data[&#39;hours_studied&#39;], data[&#39;test_scores&#39;])
 df = len(data) - 2  # Degrees of freedom
 
-print(&quot;Correlation coefficient:&quot;, correlation)</code></pre>
-<pre><code>## Correlation coefficient: 0.6055989149124067</code></pre>
-<pre class="python"><code>print(&quot;P-value:&quot;, p_value)</code></pre>
-<pre><code>## P-value: 2.0922595757724395e-36</code></pre>
-<pre class="python"><code>print(&quot;Degrees of Freedom:&quot;, df)</code></pre>
-<pre><code>## Degrees of Freedom: 348</code></pre>
+print(&quot;Correlation coefficient:&quot;, correlation)
+## Correlation coefficient: 0.6055989149124067
+print(&quot;P-value:&quot;, p_value)
+## P-value: 2.0922595757724395e-36
+print(&quot;Degrees of Freedom:&quot;, df)
+## Degrees of Freedom: 348</code></pre>
 </div>
 <div id="create-a-scatter-plot" class="section level1">
 <h1>Create a scatter plot</h1>
