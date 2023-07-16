@@ -112,3 +112,4 @@ plt.show()
 ```
 
 Congratulations! You have successfully conducted correlation analysis using both R and Python.
+You may be interested in similar tutorials for [repeated-measures t-test]({{< ref "/tutorials/repeated-ttest.md" >}} "paired samples t-test in R and Python"), [independent samples t-test]({{< ref "/tutorials/indep-samples-ttest.md" >}} "independent samples t-test in R and Python"), and [one-way ANOVA]({{< ref "/tutorials/oneway-anova.md" >}} "one-way ANOVA in R and Python") in R and Python. 
