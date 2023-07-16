@@ -17,8 +17,6 @@ Let's consider an example from marketing. Suppose a company wants to assess the 
 
 ![consumer looking at ads](/images/consumer_looking_at_ads.png)
 
-<img src="/images/consumer_looking_at_ads.png" alt="drawing" width="200"/>
-
 ## Conducting Repeated Measures t-test in R
 
 ### Step 1: Simulating Data
