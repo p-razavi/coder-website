@@ -13,6 +13,8 @@ The independent samples t-test (or between-subjects t-test) is used to determine
 ## Example Scenario
 Let's consider a simple example from psychology. Suppose a researcher wants to investigate whether there is a significant difference in the mean anxiety levels between two groups of participants: Group A, which received a mindfulness intervention, and Group B, which did not receive any intervention. The researcher believes that mindfulness can reduce anxiety levels. Assuming that the two groups, on average, had the same level of anxiety prior to the intervention, by conducting an independent samples t-test, the researcher can compare the post-intervention anxiety levels and assess whether the intervention had a significant impact on anxiety.
 
+![consumer looking at ads](/images/people_meditating.png)
+
 ## Conducting Independent Samples t-test in R
 
 ### Step 1: Simulating Data
