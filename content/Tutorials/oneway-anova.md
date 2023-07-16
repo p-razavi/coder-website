@@ -13,6 +13,8 @@ One-Way Analysis of Variance (ANOVA) is a statistical test used to compare the m
 ## Example Scenario
 In this example, we have a dataset that includes information on rental prices across three states: Oregon (OR), California (CA), and Washington (WA). The dataset contains 15,000 rows, with 5,000 rows for each state. We want to use a one-way ANOVA to analyze these data and compare the average rents between the three states.
 
+![cubist houses](/images/suburb.png)
+
 ## Conducting One-Way ANOVA in R
 
 ### Step 1: Loading the Data
