@@ -93,4 +93,5 @@ print("Cohen's d:", cohens_d)
 ```
 
 
-Congratulations! You have successfully conducted an independent samples t-test using both R and Python.
+Congratulations! You have successfully conducted an independent samples t-test using both R and Python. 
+You may be interested in similar tutorials for [repeated-measures t-test]({{< ref "/tutorials/repeated-ttest.md" >}} "paired samples t-test in R and Python"), [correlation]({{< ref "/tutorials/correlation.md" >}} "correlation in R and Python"), and [one-way ANOVA]({{< ref "/tutorials/oneway-anova.md" >}} "one-way ANOVA in R and Python") in R and Python. 
