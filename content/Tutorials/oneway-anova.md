@@ -131,3 +131,4 @@ plt.show()
 The box plot visually presents the distribution of rents for each state, allowing for easy comparison of the median and quartiles. We can see that the rents are higher in California, followed by Washington and Oregon.
 
 Congratulations! You have successfully conducted a one-way ANOVA using both R and Python.
+You may be interested in similar tutorials for [repeated-measures t-test]({{< ref "/tutorials/repeated-ttest.md" >}} "paired samples t-test in R and Python"), [independent samples t-test]({{< ref "/tutorials/indep-samples-ttest.md" >}} "independent samples t-test in R and Python"), and [correlation analysis]({{< ref "/tutorials/correlation.md" >}} "correlation in R and Python") in R and Python. 
