@@ -15,6 +15,10 @@ The repeated measures t-test (also known as the paired-samples t-test) is used t
 ## Example Scenario
 Let's consider an example from marketing. Suppose a company wants to assess the effectiveness of their new add campaign in changing their costumers' interest in a new product. They collect data from 250 participants who report their attitude towards the product prior to viewing the ad campaign (i.e., _prior_) and after viewing the ads (i.e., _post_). By conducting a repeated measures t-test, the company can determine if there is a statistically significant difference in user attitudes as a result of the ad campaign.
 
+![consumer looking at ads](/images/consumer_looking_at_ads.png)
+
+<img src="/images/consumer_looking_at_ads.png" alt="drawing" width="200"/>
+
 ## Conducting Repeated Measures t-test in R
 
 ### Step 1: Simulating Data
