@@ -97,4 +97,5 @@ print("Cohen's d:", cohens_d)
 The output will display the calculated t-statistic (_t_ = -11.54) and p-value (_p_ < .001), and 95% confidence interval [-1.16, -0.82], which indicate the campaign had a statistically significant and large effect (_d_ = 0.73) on users' attitudes toward the new product. 
 
 
-Congratulations! You have successfully conducted a repeated measures t-test using both R and Python.
+Congratulations! You have successfully conducted a repeated measures t-test using both R and Python. 
+You may be interested in similar tutorials for [independent samples t-test]({{< ref "/tutorials/indep-samples-ttest.md" >}} "independent samples t-test in R and Python"), [correlation]({{< ref "/tutorials/correlation.md" >}} "correlation in R and Python"), and [one-way ANOVA]({{< ref "/tutorials/oneway-anova.md" >}} "one-way ANOVA in R and Python") in R and Python. 
