@@ -13,6 +13,8 @@ Correlation analysis is a statistical technique used to measure the strength and
 ## Example Scenario
 Let's consider a practical example where a teacher wants to analyze the relationship between the number of hours studied and the corresponding test scores of 350 students in her class. By conducting a correlation analysis, we can assess the strength and direction of the relationship between these variables.
 
+![studying](/images/students_studying.png)
+
 ## Conducting Correlation Analysis in R
 
 ### Step 1: Simulating Data
