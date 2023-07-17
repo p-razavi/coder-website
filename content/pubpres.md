@@ -9,6 +9,12 @@ description: List of peer reviewed publications, presentations, and awards
 title: Publications, Presentations, and Awards
 ---
 
+## **Preprints**
+
+**Social Consequences of Anger Expression: The Role of Target of Harm and Expresser’s Gender**
+
+Razavi, P., Hodges, S. D., Condon, D. M., Wagner, D. T., & Srivastava, S. (2023). _PsyArXiv._ [[Link](https://psyarxiv.com/aysfx/)]. [[R Code and Data](https://osf.io/ngkxt/)].
+
 
 ## **PUBLICATIONS**
 
