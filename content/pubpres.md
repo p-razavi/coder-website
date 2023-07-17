@@ -9,7 +9,7 @@ description: List of peer reviewed publications, presentations, and awards
 title: Publications, Presentations, and Awards
 ---
 
-## **Preprints**
+## **PREPRINTS**
 
 **Social Consequences of Anger Expression: The Role of Target of Harm and Expresser’s Gender**
 
