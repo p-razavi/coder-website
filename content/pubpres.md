@@ -56,6 +56,10 @@ Razavi, P., Zhang, J. W., Hekiert, D., Yoo, S. H., Howell, R. (2016). _Emotion_.
 
 ## **PRESENTATIONS**
 
+**[2024]**
+
+Razavi, P., & Powers, S. (2024, February). *Item Word Count and Response Time as a Window into Participants’ Response Processes: Insights from a Large Educational Dataset*. Poster Presented at the 25th Annual Convention of Society for Personality and Social Psychology in San Diego, CA.
+
 **[2023]**
 
 Razavi. P. (2023, April). *Emotions as signals of relational violations: The cases of anger and gheirat.* Invited Presentation to the Psychology Department at the Linfield University, OR.
