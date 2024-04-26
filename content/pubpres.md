@@ -58,6 +58,11 @@ Razavi, P., Zhang, J. W., Hekiert, D., Yoo, S. H., Howell, R. (2016). _Emotion_.
 
 **[2024]**
 
+
+Razavi, P., & Powers, S. (2024, April). *Evaluating examinee engagement through modeling the relation between response time and item word count.* Paper presented in the “Assessment in the Advent of Process Data and AI” symposium at the 2024 Annual Conference of the American Educational Research Association (AERA) in Philadelphia, PA.
+
+Xiao, X., Razavi, P., & Powers, S. (2024, April). *Bridging bilingual gaps: An in-depth exploration of ChatGPT's transadaptation capabilities.* Paper presented at the 2024 Annual Conference of the National Council on Measurement in Education (NCME) in Philadelphia, PA.
+
 Razavi, P., & Powers, S. (2024, February). *Item Word Count and Response Time as a Window into Participants’ Response Processes: Insights from a Large Educational Dataset*. Poster Presented at the 25th Annual Convention of Society for Personality and Social Psychology in San Diego, CA.
 
 **[2023]**
